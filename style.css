@@ -11,13 +11,13 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: left; /* otázka 10 */
   background-image: url("./images/landscape.jpg");
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 50px;
+  font-size: 60px; /* otázka 2 */
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -30,17 +30,17 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;  /* otázka 9 */
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 24px 30px; /* otázka 8 */
   text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left;  /* otázka 9 */
 }
 
 /* Change color on hover */
@@ -51,8 +51,8 @@ body {
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: rgb(14, 188, 231); /* otázka 7*/
+  color: rgb(0, 0, 0);
 }
 
 /* Column container */
@@ -64,7 +64,8 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #0a0a0a;
+  color: white; /* otázka 6 */
   padding: 20px;
 }
 
@@ -77,7 +78,7 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 50px; /* otázka 5 */
   background: #474747;
 }
 
@@ -85,7 +86,7 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color: #07f807; /* otázka 4 */
 }
 
 /* Basic styles for the post */
@@ -93,7 +94,7 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(253, 2, 2); /* otázka 3 */
 }
 
 /* Styles for the post heading */
@@ -104,7 +105,7 @@ body {
 
 /* Styles for the post image */
 img {
-  max-width: 100%;
+  max-width: 50%; /* otázka 1 */
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
